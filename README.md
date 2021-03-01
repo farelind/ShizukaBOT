@@ -49,7 +49,7 @@
  #sosial media
 
 
-* [`WhatsApp Admin `](https://wa.me/6281281872699)
+* [`WhatsApp Admin `](https://wa.me/628994182569)
 
 * [`ShizukaAPIs `](https://api.shizukaa.xyz/)
 
