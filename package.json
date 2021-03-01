@@ -1,5 +1,5 @@
 {
-  "name": "ITSMEIKY",
+  "name": "FAREL",
   "version": "1.0.0",
   "description": "Shizuka for whatsapp online with termux",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "ItsmeikyXSec404",
+  "author": "Farel",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ItsmeikyXSec4O4/ShizukaBOT.git"
