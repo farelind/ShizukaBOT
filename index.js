@@ -49,7 +49,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Admin Farel \n' 
             + 'ORG: Pengembang Farel;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=628994182569:+62 899-4182-569\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=628994182569:+62 899-4182569\n' 
             + 'END:VCARD'
 prefix = '$'
 blocked = []   
@@ -58,8 +58,8 @@ memberlimit = 0
 cr = '*SHIZUKA THIS IS ALREADY VERIFIED*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["628994182569@s.whatsapp.net"] 
-const pacarNumber = ["628994182569@s.whatsapp.net"]
+const ownerNumber = ["6285761464179@s.whatsapp.net"] 
+const pacarNumber = ["6285761464179@s.whatsapp.net"]
 /************************************/
 
        
@@ -838,7 +838,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                 		hasiltf = jumblah - fee
                 		addKoinUser(tujuantf, hasiltf)
                 		confirmATM(sender, jumblah)
-                		addKoinUser('628994182569@s.whatsapp.net', fee)
+                		addKoinUser('6285761464179@s.whatsapp.net', fee)
                 		reply(`*「 SUKSES 」*\n\nPengiriman uang telah sukses\nDari : +${sender.split("@")[0]}\nKe : +${tujuan}\njJumlah transfer : ${jumblah}\nPajak : ${fee}`)
                 		break
               case 'hai':
@@ -1068,7 +1068,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                 		const jmla = args[1]
                 		if (jmla <= 1) return reply(`minimal gift limit adalah 1`)
                 		if (isNaN(jmla)) return reply(`limit harus berupa angka`)
-                		if (!nomerr) return reply(`maaf format salah\nmasukan parameter yang benar\ncontoh : ${prefix}giftlimit @62895710074883 20`)
+                		if (!nomerr) return reply(`maaf format salah\nmasukan parameter yang benar\ncontoh : ${prefix}giftlimit @6285761464179 20`)
                 		const cysz = nomerr + '@s.whatsapp.net'
                 		var found = false
                         			Object.keys(_limit).forEach((i) => {
@@ -3713,7 +3713,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					text: teks1,
 					contextInfo: {mentionedJid: [nomor]},
 					}
-					itsmeiky.sendMessage('628994182569@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285761464179@s.whatsapp.net', options, text, {quoted: iky})
 					reply('Masalah telah di laporkan ke owner Farel, Laporan palsu atau main² tidak akan ditanggapi.')
 					break
 		case 'request':
@@ -3725,9 +3725,9 @@ itsmeiky.on('group-participants-update', async (anu) => {
 							text: ress,
                          				contextInfo: {mentionedJid: [nomor]},
                      			}
-					itsmeiky.sendMessage('628994182569@s.whatsapp.net', options, text, {quoted: iky})
-					itsmeiky.sendMessage('628994182569@s.whatsapp.net', options, text, {quoted: iky})
-					itsmeiky.sendMessage('628994182569@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285761464179@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285761464179@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285761464179@s.whatsapp.net', options, text, {quoted: iky})
 					reply('REQUEST ANDA TELAH SAMPAI KE OWNER Farel BOT, Requests palsu atau main² tidak akan ditanggapi.')
 					break
 		case 'blocklist': 
@@ -4588,7 +4588,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					itsmeiky.sendMessage(from, 'Level 100 = Free 3 day (premium)\n10k = 7day (premium)\n25k = bulan (premium)',MessageType.text, { quoted: iky} )
 					break
 		case 'buypremium':
-					itsmeiky.sendMessage(from, 'Ingin membeli premium?\nHarap hubungi kami : wa.me/628994182569',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Ingin membeli premium?\nHarap hubungi kami : wa.me/6285761464179',MessageType.text, { quoted: iky} )
 					break
 		case 'buypremunlimited':
 					if (!isPremium) return reply('Maaf kamu bukan user premium!')
@@ -4612,19 +4612,19 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					itsmeiky.sendMessage(from, 'Waalaikumusalam',MessageType.text, { quoted: iky} )
 					break
 		case 'kontol':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/628994182569',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285761464179',MessageType.text, { quoted: iky} )
 					break
 		case 'meiky':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/628994182569',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285761464179',MessageType.text, { quoted: iky} )
 					break
 		case 'jembut':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/628994182569',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285761464179',MessageType.text, { quoted: iky} )
 					break
 		case 'ngentod':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/628994182569',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285761464179',MessageType.text, { quoted: iky} )
 					break
 		case 'kntl':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/628994182569',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285761464179',MessageType.text, { quoted: iky} )
 					break
 
 		case 'wa.me':
