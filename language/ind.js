@@ -122,11 +122,11 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 //You only get your name fuck !!
 //If INFO DEVELOPER not in change, its okey!!
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role) => { 
-	return `「 *SHIZUKA BOT* 」
+	return `「 *FAREL BOT* 」
 ◪ *INFO DEVELOPER*
-  ❏ Nama: ItsmeikyXSec404
-  ❏ Wa: wa.me/6281281872699
-  ❏ Ig: https://instagram.com/itsmeikyxsec404
+  ❏ Nama: Farel Ind
+  ❏ Wa: wa.me/6285761464179
+  ❏ Ig: @farel_ind1
   ----------------------------------
 ◪ *INFO SHIZUKA*
   ❏ Nama: SHIZUKA 
@@ -446,7 +446,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}qrcode
   └─ ❏ ${prefix}afk
   
-◪ *POWERED BY ITSMEIKYXSEC404*
+◪ *POWERED BY Farel Ind*
 `
 }
 
